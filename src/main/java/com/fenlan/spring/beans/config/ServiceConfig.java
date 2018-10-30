@@ -25,7 +25,7 @@ public class ServiceConfig {
 
     public class DataSource {
         public DataSource(String url, String username, String passwod) {
-            System.out.println(url + "\t" + username + "\t" + passwod);
+            System.out.println("jdbc.url: "+ url + "\tjdbc.username: " + username + "\tjdbc.password: " + passwod);
         }
     }
 }
