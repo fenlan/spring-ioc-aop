@@ -10,6 +10,6 @@ public class NotVeryUsefulAspect {
 
     @Before("execution(* com.fenlan.spring.beans.bean.MyServiceImpl.save(..))")
     public void beforeAct() {
-        System.out.println("NotVeryUsefulAspect : beforeAct");
+        System.out.println("NotVeryUsefulAspect : beforeAct()");
     }
 }
