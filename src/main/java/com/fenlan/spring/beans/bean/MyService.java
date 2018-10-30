@@ -6,5 +6,7 @@ public interface MyService {
 
     void save();
 
+    void save(String param);
+
     void cleanup();
 }

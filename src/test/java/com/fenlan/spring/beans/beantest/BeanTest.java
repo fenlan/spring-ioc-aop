@@ -17,7 +17,7 @@ public class BeanTest {
     public void call() {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         MyService service = (MyService) context.getBean("service");
-        service.save();
+        service.save("fenlan");
         System.out.println(service.hashCode());
 
         MyService service1 = (MyService) context.getBean("service");

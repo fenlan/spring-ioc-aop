@@ -13,6 +13,11 @@ public class MyServiceImpl1 implements MyService {
     }
 
     @Override
+    public void save(String param) {
+
+    }
+
+    @Override
     public void cleanup() {
         System.out.println("MyServiceImpl1 : cleanup");
     }

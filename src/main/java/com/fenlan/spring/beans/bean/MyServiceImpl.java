@@ -19,6 +19,10 @@ public class MyServiceImpl implements MyService {
         System.out.println("MyServiceImpl : save()");
     }
 
+    public void save(String param) {
+        System.out.println("MyServiceImpl : save(" + param + ")");
+    }
+
     @Override
     public void cleanup() {
         System.out.println("MyServiceImpl : cleanup()");
